@@ -34,6 +34,13 @@ theme: minima
 plugins:
   - jekyll-feed
 
+group: jekyll_plugins do
+  gem 'jekyll-feed', '~> 0.12'
+  gem 'jekyll-remote-theme'
+  gem 'jekyll-sitemap'
+  gem 'jekyll-seo-tag'
+end
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
